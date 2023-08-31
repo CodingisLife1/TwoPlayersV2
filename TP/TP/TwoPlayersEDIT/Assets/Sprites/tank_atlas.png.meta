@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: ccff6d2bec0f57e468c5fe17b1290595
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1086
+        width: 156
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c121f3e2f4894fbb3aa6e30e308db
+      internalID: -252254779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1086
+        width: 156
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7bd6a9685a3c54f82a08bb739c0a38
+      internalID: -2081947366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1086
+        width: 156
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9341a2cffc859c54286dae0df5912713
+      internalID: -1706908673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1086
+        width: 156
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4355ba37bb8b5754991d91848c841b7f
+      internalID: 2093507274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1086
+        width: 156
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479c26e190f02364d9db20620ccd081c
+      internalID: -2060347708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1090
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e693333774750d344b78d6028f36e44e
+      internalID: 1897850605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 861
+        width: 156
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71366b2414e98f847887cb55a3caedfc
+      internalID: 452081307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 894
+        width: 142
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6528852f0a656024496393163ed8eba5
+      internalID: -1894247127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_14
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 891
+        width: 148
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55221f6ddd7889346be3a867ea85167d
+      internalID: 1676274572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_18
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 894
+        width: 49
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932a3b25f9f5cc441b2ef0f021035a3e
+      internalID: -604304715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_19
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 900
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5451107605943dc4ebb907cea1803cdc
+      internalID: -1650921635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_22
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 863
+        width: 168
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88127a1a8f7ecf4a8dd24cfa18403e9
+      internalID: -1647405527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_33
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 708
+        width: 102
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2ad557614ee643b698fcce4149849
+      internalID: 205028553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 702
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab58484b57a81a145af2426311397571
+      internalID: -990399881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_35
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 702
+        width: 102
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e345697852266245bcd0de58025621f
+      internalID: 1340717528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_36
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 702
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a59fb1fb6b47fc47a4506b487281451
+      internalID: 910932912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 328
+        width: 57
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0513d83cf815e42a51a91eca26e4dc
+      internalID: -882825756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_39
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 324
+        width: 67
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1057dbc18ef0d2e4687fd8ba2f011d98
+      internalID: -1410546039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_43
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 394
+        width: 21
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea49a187bf442344ac8078f72b0bee0
+      internalID: -2066584363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_6: 2120486543
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_34: -990399881
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_13: 939987096
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_17: -924004871
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_25: 1406251223
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_33: 205028553
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_15: -1288981186
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_38: -635821930
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_7: 738165464
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_10: 1027778187
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_14: 1676274572
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_45: 992906319
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_26: -179857477
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_41: 194877095
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_9: 452081307
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_5: 1897850605
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_12: -1543135860
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_16: -2096783852
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_29: -827775556
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_36: 910932912
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_27: 2000174757
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_43: -2066584363
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_4: -2060347708
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_11: -1894247127
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_1: -2081947366
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_31: 241785896
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_44: 207576461
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_24: -1311071459
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_18: -604304715
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_20: -370870193
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_39: -1410546039
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_30: -303797871
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_0: -252254779
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_21: -1557907949
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_37: -882825756
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_2: -1706908673
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_42: 1270408
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_22: -1647405527
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_23: -849812286
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_28: -1164921073
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_19: -1650921635
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_3: 2093507274
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_35: 1340717528
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_8: -1293543270
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_40: 970291462
+      photo_2023-03-27_20-19-29-PhotoRoom.png-PhotoRoom_32: 36624684
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

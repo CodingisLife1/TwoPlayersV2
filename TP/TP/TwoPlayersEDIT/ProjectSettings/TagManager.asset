@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tank Game
+  - Tank1
+  - Tank2
+  - Paddle1
+  - Paddle2
+  - Box
+  - Fish
+  - Hook1
+  - Bullet1
+  - Bullet2
+  - Hook2
+  - Fishing
+  - Shooter
+  - Shark
+  - Car1
+  - Car2
+  - Puck
+  - Red Gates
+  - Blue Gates
+  - CircleRacing
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Barrier
+  - Water
+  - UI
+  - Puck
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
