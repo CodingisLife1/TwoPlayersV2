@@ -19,6 +19,7 @@ public class TicTacToe : MonoBehaviour
     [SerializeField] private TotalScore totalScore;
     [SerializeField] private GameObject gamePanel;
     [SerializeField] private Tournament tournament;
+    [SerializeField] private GameObject parentSymbols;
     private List<GameObject> existSymbols = new List<GameObject>();
 
     private bool mode;
@@ -74,6 +75,7 @@ public class TicTacToe : MonoBehaviour
                     symbols[0, 0] = 'X';
                     GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[0].position.x, symbolPositions[0].position.y, symbolPositions[0].position.z), Quaternion.identity);
                     existSymbols.Add(g);
+                    g.transform.parent = parentSymbols.transform;
                     playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
                 }
                 else
@@ -81,6 +83,7 @@ public class TicTacToe : MonoBehaviour
                     symbols[0, 0] = 'O';
                     GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[0].position.x, symbolPositions[0].position.y, symbolPositions[0].position.z), Quaternion.identity);
                     existSymbols.Add(g);
+                    g.transform.parent = parentSymbols.transform;
                     playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
                 }
 
@@ -135,6 +138,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[0, 1] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[1].position.x, symbolPositions[1].position.y, symbolPositions[1].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -142,6 +146,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[0, 1] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[1].position.x, symbolPositions[1].position.y, symbolPositions[1].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -195,6 +200,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[0, 2] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[2].position.x, symbolPositions[2].position.y, symbolPositions[2].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -202,6 +208,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[0, 2] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[2].position.x, symbolPositions[2].position.y, symbolPositions[2].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -255,6 +262,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[1, 0] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[3].position.x, symbolPositions[3].position.y, symbolPositions[3].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -262,6 +270,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[1, 0] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[3].position.x, symbolPositions[3].position.y, symbolPositions[3].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -315,6 +324,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[1, 1] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[4].position.x, symbolPositions[4].position.y, symbolPositions[4].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -322,6 +332,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[1, 1] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[4].position.x, symbolPositions[4].position.y, symbolPositions[4].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -375,6 +386,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[1, 2] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[5].position.x, symbolPositions[5].position.y, symbolPositions[5].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -382,6 +394,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[1, 2] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[5].position.x, symbolPositions[5].position.y, symbolPositions[5].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -435,6 +448,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[2, 0] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[6].position.x, symbolPositions[6].position.y, symbolPositions[6].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -442,6 +456,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[2, 0] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[6].position.x, symbolPositions[6].position.y, symbolPositions[6].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -495,6 +510,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[2, 1] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[7].position.x, symbolPositions[7].position.y, symbolPositions[7].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -502,6 +518,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[2, 1] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[7].position.x, symbolPositions[7].position.y, symbolPositions[7].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -555,6 +572,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[2, 2] = 'X';
                 GameObject g = Instantiate(crossSymbol, new Vector3(symbolPositions[8].position.x, symbolPositions[8].position.y, symbolPositions[8].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = false; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
             else
@@ -562,6 +580,7 @@ public class TicTacToe : MonoBehaviour
                 symbols[2, 2] = 'O';
                 GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[8].position.x, symbolPositions[8].position.y, symbolPositions[8].position.z), Quaternion.identity);
                 existSymbols.Add(g);
+                g.transform.parent = parentSymbols.transform;
                 playerTurn = true; // î÷åðåäü ñëåäóþùåãî èãðîêà
             }
 
@@ -766,6 +785,7 @@ public class TicTacToe : MonoBehaviour
 
             GameObject g = Instantiate(zeroSymbol, new Vector3(symbolPositions[numCell].position.x, symbolPositions[numCell].position.y, symbolPositions[numCell].position.z), Quaternion.identity);
             existSymbols.Add(g);
+            g.transform.parent = parentSymbols.transform;
             playerTurn = true;
 
 
